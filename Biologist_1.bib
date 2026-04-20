@@ -65,3 +65,34 @@
 % and run partial scripts or demos. 
 %
 % Name: Daniel Felipe
+
+% =========================
+% Report 3
+% =========================
+@article{poplin2018deepvariant,
+  title   = {A universal SNP and small-indel variant caller using deep neural networks},
+  author  = {Poplin, Ryan and Chang, Pi-Chuan and Alexander, David and Schwartz, Scott and Colthurst, Thomas and Ku, Alexander and Newburger, Daniel and Dijamco, Jay and Nguyen, Nam and Afshar, Pouya Taghavi and Gross, Sam and Dorfman, Lauren and McLean, Cory and DePristo, Mark A.},
+  journal = {Nature Biotechnology},
+  volume  = {36},
+  number  = {10},
+  pages   = {983--987},
+  year    = {2018},
+  doi     = {10.1038/nbt.4235},
+  url     = {https://doi.org/10.1038/nbt.4235}
+}
+% GitHub Repository: https://github.com/google/deepvariant
+%
+% Summary: 
+% This paper falls under deep learing  to identify genetic variants, specifically the identification and calssification of single nucleotide 
+% polymorphism (SNP) and small insertions/deletions (indels) from DNAsequencing data. It is part of computational genomics and plays a role in
+% post-genome assembly analysis, where generic variations are detected after sequencing and aligment. It applies deep neural networks to genomic
+% data where DNA sequencing reads are transformed into image-like representations. themethod improves accuracy compared to traditional 
+% variant-calling approaches. 
+%
+% Replicability assessment:
+% The GitHub repository for shows potential for replication. Suports executon via Docker containers, improving reproducibility. It's deesinged 
+% to work accross different sequencing technologies and systems (local machine, cloud, HPC). It supports thet theme of reproducible genomic
+% analysis pipelines, improving the accuracy of variant detection after genome assembly. Based on the paper, running DeepVariant on the same
+% input data will generally give very consistent results. The pipeline is well-documented and widely used in production genomics. 
+%
+% Name: Daniel Felipe
