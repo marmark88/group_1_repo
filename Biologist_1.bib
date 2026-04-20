@@ -189,3 +189,37 @@
 % dependencies via Conda or Docker. Supports local, HPC, and cloud environments. These features make reproducibility strong and systematic.
 %           
 % Name: Daniel Felipe
+% =========================
+% Report 7
+% =========================
+@article{Coombe2021LongStitch,
+  title   = {LongStitch: high-quality genome assembly correction and scaffolding using long reads},
+  author  = {Coombe, Lauren and Li, Janet X. and Lo, Theodora and Wong, Johnathan and Nikolic, Vladimir and Warren, Ren{\'e} L. and Birol, Inanc},
+  journal = {BMC Bioinformatics},
+  year    = {2021},
+  volume  = {22},
+  number  = {1},
+  pages   = {534},
+  doi     = {10.1186/s12859-021-04451-7},
+  url     = {https://doi.org/10.1186/s12859-021-04451-7},
+  publisher = {Springer Nature}
+}
+% GitHub repository: https://github.com/BirolLab/LongStitch
+%
+% Summary:
+% This paper introduces LongStitch, a bioinformatics pipeline for improving genome assemblies using long-read sequencing data 
+% (long DNA fragments). Long reads can span repetitive regions, making it esiar to assemble genomes correctly. It performs error
+% correction of draft genome assemblies and scaffolding (ordering and connecting genome fragments). The pipeline integrates
+% tools like Tigmint-long (error correction), ntLink (scaffolding), and ARKS-long (optional refinement). It turns fragmented 
+% genome assemblies into more complete and accurate grnomes. It fits strongly with computational genomics and reproducible pipelines.
+% Provides  a standardized workflow for genome assembly improvement and reduces the need for manual, ad hoc processing. It contributes
+% to the broader trend of pipeline-based, reproducible bioinformatics workflows and supports consistent results across datasets.
+%
+% Replicability assessment:
+% The pipeline is freely available on GitHub, along with installations instructions and dependencies. The code has been replicated
+% and used y others. The pipeline is designed to be re-run on different datasets. The authors demonstrates replication across multiple
+% organism: human genomes, rice, and C. elegans. It consistently improved genome assemblies and ran efficiently. The code is not only 
+% implemented but it's also experimentally validated. And shows the method is internally replicated across datasets, and not just a 
+% single experiment. 
+%
+% Name: Daniel Felipe
