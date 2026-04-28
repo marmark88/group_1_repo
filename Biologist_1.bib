@@ -31,7 +31,7 @@
 % be rebuilt using provided references.
 % 
 % Name: Daniel Felipe
-
+%
 % =========================
 % Report 2
 % =========================
@@ -65,7 +65,7 @@
 % and run partial scripts or demos. 
 %
 % Name: Daniel Felipe
-
+%
 % =========================
 % Report 3
 % =========================
@@ -93,12 +93,12 @@
 % The GitHub repository for shows potential for replication. Suports executon via Docker containers, improving reproducibility. It's deesinged 
 % to work accross different sequencing technologies and systems (local machine, cloud, HPC). It supports thet theme of reproducible genomic
 % analysis pipelines, improving the accuracy of variant detection after genome assembly. Based on the paper, running DeepVariant on the same
-% input data will generally give very consistent results. The pipeline is well-documented and widely used in production genomics. 
+% input data will generally give very consistent results. The pipeline is well-documented and widely used in production genomics.
 %
 % Name: Daniel Felipe
-
+%
 % =========================
-% Report 4
+% Report 
 % =========================
 @article{rnAsik2019,
   title   = {RNAsik: A Pipeline for complete and reproducible RNA-seq analysis that runs anywhere with speed and ease},
@@ -126,8 +126,7 @@
 % principles of reproducible bioinformatics pipelines.
 % 
 % Name: Daniel Felipe
-
-
+%
 % =========================
 % Report 5
 % =========================
@@ -158,6 +157,7 @@
 % reproducibility and debugging. 
 %
 % Name: Daniel Felipe
+%
 % =========================
 % Report 6
 % =========================
@@ -222,5 +222,48 @@
 % organism: human genomes, rice, and C. elegans. It consistently improved genome assemblies and ran efficiently. The code is not only 
 % implemented but it's also experimentally validated. And shows the method is internally replicated across datasets, and not just a 
 % single experiment. 
+%
+% Name: Daniel Felipe
+%
+% =========================
+% Report 8
+% =========================
+@article{Urayama2026ObeliskRNA,
+  author  = {Urayama, Syun-ichi and others},
+  title   = {Identification of hot spring Obelisk-like RNA replicons and expanded diversity of the Obelisk superfamily},
+  journal = {Nature Communications},
+  year    = {2026},
+  doi     = {10.1038/s41467-026-71096-6},
+  url     = {https://www.nature.com/articles/s41467-026-71096-6},
+  publisher = {Nature Publishing Group}
+}
+% GitHub repositories:
+% https://github.com/takakiy/FLDS
+% https://github.com/yosuken/ccfind
+% https://github.com/ctSkennerton/minced
+% https://github.com/YoshitakaMo/localcolabfold
+% https://github.com/Benjamin-Lee/vdsearch
+% https://github.com/Benjamin-Lee/circkit
+% https://github.com/ponnhide/plasmidviewer
+% https://github.com/rcedgar/jupiter
+% https://github.com/ctSkennerton/minced
+% https://github.com/rcedgar/circuclust
+%
+% Summary:
+% This paper focuses on circular RNAs and RNA replicons, more specifically this work sits within RNA virus evolution and
+% microbial ecology. The study identifies novel circular RNA replicons (“Obelisk-like” RNAs) in hot spring environments.
+% Uses metatranscriptomic sequencing to discover and characterize them, and expands the known diversity of a group of viroid-like
+% elements (small circular RNAs that replicate without encoding full viruses). It analyzes RNA structure (ribozymes), encoded proteins
+% like Oblin protein, and evolutionary relationships. The paper reveals a much broader and previously hidden diversity of non-
+% traditional RNA replicators, suggesting that the RNA world (and virus-like entities) is more complex than previously thought.
+%
+% Replicability assessment:
+% There are a few strong signs that replication is feasible, the FLDS repository corresponds to a defined sequencing pipeline used in
+% the study. Code is hosted on GitHub and also archived on Zenodo with DOIs which improves long-term reproducibility and version
+% control. The paper provides raw/processed data via Zenodo and source data files, this is critical because code alone is not enough for
+% replication. It incorporates known tools such as CRISPR spacer mining and RNA structure prediction. There is no explicit evidence in the
+% paper or linked sources that independent groups have already reproduced the results using these repos or that the repositories have
+% widespread external validation. However, the presence of Zenodo DOIs plus GitHub repos plus full datasets strongly suggests the authors
+% intended full reproducibility. This aligns with open source and reproducible computational biology.
 %
 % Name: Daniel Felipe
