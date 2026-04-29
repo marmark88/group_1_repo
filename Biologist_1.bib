@@ -190,6 +190,7 @@
 % dependencies via Conda or Docker. Supports local, HPC, and cloud environments. These features make reproducibility strong and systematic.
 %           
 % Name: Daniel Felipe
+%
 % =========================
 % Report 7
 % =========================
@@ -326,6 +327,38 @@
 % The repository is explicitly linked via the study’s data/code release and corresponds to the POGO-PANCE platform used in the paper. The repo supports
 % the computational analysis and includes Python-based code. The public GitHub and  Zenodo archive ensures  reproducibility. It includes real experimental
 % datasets and code tied directly to figures/results. The paper is very recent , there is no clear independent replication studies. The data plus pipeline
-% are complete enough to reproduce figures
+% are complete enough to reproduce figures.
 %
 % Name: Daniel Felipe
+%
+% =========================
+% Report 11
+% =========================
+@article{Blue2022,
+  author  = {Blue, Steven M. and Yee, Brian A. and Pratt, Gabriel A. and Mueller, Jasmine R. and Park, Samuel S. and Shishkin, Alexander A. and Starner, Anne C. and Van Nostrand, Eric L. and Yeo, Gene W.},
+  title   = {Transcriptome-wide identification of RNA-binding protein binding sites using seCLIP-seq},
+  journal = {Nature Protocols},
+  year    = {2022},
+  volume  = {17},
+  number  = {5},
+  pages   = {1223--1265},
+  doi     = {10.1038/s41596-022-00680-z},
+  url     = {https://pubmed.ncbi.nlm.nih.gov/35322209/}
+}
+% GitHub repository: https://github.com/yeolab/eclip
+% Archived version (Zenodo): https://zenodo.org/records/5076591
+%
+% Summary:
+% This paper falls under RNA-protein interactions and RNA-binding protein mapping. The study introduces seCLIP-seg (single-end enhanced CLIP), an
+% improved experimental and computatinal method to identify where RNA-binding proteins interact  across the transcriptome. Builds on CLIP (crosslinking
+% immunoprecipitation) technique, providing higher resolution, improving efficiency and better quantitative comparison controls. Giving as a result,
+% genome-wide maps of RNA-binding proteins binding sites. It includes a step-by-step experimental protocol and a bioinformatics pipeline for data analysis.
+%
+% Replicability assessment:
+% The eCLIP GitHub repository is fully open-source, it propvides end-to-end bioinformatics pipeline, scripts (Python/R), and workflow managers such as
+% Snakemake/Nextflow. The paper has a high computational reproducibility potential. The pipelne is based on widely used eCLIP methods, also the data
+% generated using this method is deposited  in GEO and reuse by others. the method and pipeline are actively used in the field and the code is functional
+% and implemented  in real datasets. A main limitation would be that it requires advanced lab and computational infrastructure.
+%
+% Name: Daniel Felipe
+
