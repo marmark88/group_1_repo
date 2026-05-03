@@ -27,6 +27,12 @@ This is a survey paper, and the github looks to only demonstrate the pipeline fo
     This is DeepVariant, which I was planning on presenting on for my bioinformatics tool for the extra credit lab.
 }
 
+\section{RNAsik: A Pipeline for complete and reproducible RNA-seq analysis that runs anywhere with speed and ease \cite{rnAsik2019}}
+
+\paragraph{
+    The RNAsik pipeline was successfully installed and executed by creating a dedicated Conda environment and installing the package from the available bioconda channel. Following installation, the pipeline was able to launch and display its usage and configuration options, confirming that the software itself was functional and correctly set up. However, full reproduction of the original test results described in the project documentation was not possible due to external data accessibility issues. Specifically, the pipeline relied on remote datasets hosted via HTTP/FTP links, which were either inaccessible (HTTP 403 Forbidden errors) or failed to resolve correctly when used within the execution workflow. Attempts to retrieve the required input data using the provided GitHub scripts were unsuccessful, preventing the pipeline from completing the intended test run. As a result, the exact computational workflow and expected outputs described in the documentation could not be replicated. This limitation appears to be unrelated to the core functionality of the RNAsik software itself and instead arises from external dependency and data-hosting availability issues. While the pipeline installation and command-line interface were verified as operational, a suitable substitute dataset was not identified within the scope of this work to enable full end-to-end replication. Therefore, the study can be considered partially reproducible in terms of software deployment, but not fully reproducible in terms of data results. Engineer: Mark Cubi
+}
+
 \bibliographystyle{plain}
 \bibliography{Biologist_1}
 
